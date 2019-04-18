@@ -1,6 +1,6 @@
 # SolarEdge-Monitor
 SolarEdge-Inverter Monitoring via SolarEdge API (SolarEdge Website)
-This small VB.NET program is for live monitoring your SolarEdge-Inverter on the desktop of a Windows PC.
+This small VB.NET program is for live monitoring* your SolarEdge-Inverter on the desktop of a Windows PC.
 
 Program: VB.NET Winforms .Net framwork 4.7.2 .Net JSON
 
@@ -24,3 +24,5 @@ For people that are intrerested in domotica: There is also the posibility to mon
 How to use Iungo ZWave switches:
 Me.iungo = New IungoClient(Net.IPAddress.Parse(My.Settings.IP_Iungo))
 Me.iungo.ZWave.PowerSwitches("Iungo-switch-Name").State = PowerSwitch.PowerSwitchStatus.Off
+
+* (5 minute interval)
