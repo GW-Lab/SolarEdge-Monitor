@@ -37,7 +37,7 @@ Public Class SolarEdgeBase
 #End Region
 
    Function SolarEdge() As SitesJSON
-      Dim webReq = WebRequest.Create($"{Me.siteUrl}/sites/list?api_key={Me.siteKey}")              ' Create a request for the URL.
+      Dim webReq = WebRequest.Create($"{Me.siteUrl}/sites/list?api_key={Me.siteKey}")                 ' Create a request for the URL.
       Dim jsonSettings = New JsonSerializerSettings With {.NullValueHandling = NullValueHandling.Ignore}
 
       Try
