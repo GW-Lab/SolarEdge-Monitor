@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SolarEdge-Monitor", "SolarEdgeLiveMonitor\SolarEdge-Monitor.vbproj", "{4709F45D-43F5-45D2-9784-B454A6CD8BA0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GWIungo", "Iungo\GWIungo.vbproj", "{363C6007-7182-4AF1-98C3-DE9D7D4563FF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GWIPBox", "GWIPBox\GWIPBox\GWIPBox.vbproj", "{43803F57-7D4F-4215-BEA1-C65EA47B18E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|x64.ActiveCfg = Debug|x64
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|x64.Build.0 = Debug|x64
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|x64.ActiveCfg = Release|x64
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|x64.Build.0 = Release|x64
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{4709F45D-43F5-45D2-9784-B454A6CD8BA0}.Release|x86.Build.0 = Release|Any CPU
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|x64.ActiveCfg = Debug|x64
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|x64.Build.0 = Debug|x64
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|x86.ActiveCfg = Debug|x86
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Debug|x86.Build.0 = Debug|x86
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|x64.ActiveCfg = Release|x64
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|x64.Build.0 = Release|x64
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|x86.ActiveCfg = Release|x86
+		{363C6007-7182-4AF1-98C3-DE9D7D4563FF}.Release|x86.Build.0 = Release|x86
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Debug|x86.Build.0 = Debug|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|x64.Build.0 = Release|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{43803F57-7D4F-4215-BEA1-C65EA47B18E4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EFB0687-B2CE-4AC6-A17B-A8D6876D48D6}
+	EndGlobalSection
+EndGlobal
