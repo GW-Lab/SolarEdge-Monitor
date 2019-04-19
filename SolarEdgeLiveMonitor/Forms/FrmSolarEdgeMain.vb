@@ -1,6 +1,23 @@
-﻿Imports System.ComponentModel
+﻿' Program..: FrmSolarEdgeMain.vb
+' Author...: G. Wassink
+' Design...:
+' Date.....: 15/11/2017 Last revised: 19/09/2018
+' Notice...: Copyright 1999, All Rights Reserved
+' Notes....: VB 16.0.1 .NET Framework 4.7.2
+' Files....: None
 
-Public Class FrmMain
+' GitHub...: https://github.com/GW-Lab/SMA-Monitor.git
+
+' Reserved.:This SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults." THE PROVIDER makes no representations or warranties of any kind concerning the safety,
+'          : suitability, lack Of viruses, inaccuracies, typographical errors, Or other harmful components Of this SOFTWARE PRODUCT.
+'          : There are inherent dangers In the use Of any software, And you are solely responsible For determining whether this SOFTWARE PRODUCT Is compatible With your equipment
+'          : And other software installed On your equipment.
+'          : You are also solely responsible For the protection Of your equipment And backup Of your data, And THE PROVIDER will Not be liable For any damages you may suffer In connection
+'          : With Using, modifying, Or distributing this SOFTWARE PRODUCT.
+'          : Free To use 
+Imports System.ComponentModel
+
+Public Class FrmSolarEdgeMain
    Private solarEdge As SolarEdge
    Private iungo As IungoClient
 

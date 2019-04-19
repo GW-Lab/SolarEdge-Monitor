@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FrmMain
+Partial Class FrmSolarEdgeMain
    Inherits System.Windows.Forms.Form
 
    'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class FrmMain
    <System.Diagnostics.DebuggerStepThrough()> _
    Private Sub InitializeComponent()
       Me.components = New System.ComponentModel.Container()
-      Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMain))
+      Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmSolarEdgeMain))
       Me.GrpYield = New System.Windows.Forms.GroupBox()
       Me.LblTotalkWh = New System.Windows.Forms.Label()
       Me.LblYearkWh = New System.Windows.Forms.Label()

@@ -1,7 +1,7 @@
 ﻿Public Class FrmSettings
-   Private frm As FrmMain
+   Private frm As FrmSolarEdgeMain
 
-   Public Sub New(frm As Frmmain)
+   Public Sub New(frm As FrmSolarEdgeMain)
       ' This call is required by the designer.
       InitializeComponent()
 

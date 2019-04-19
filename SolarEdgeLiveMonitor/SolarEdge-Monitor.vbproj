@@ -111,11 +111,11 @@
     <Compile Include="Classes\SolarEdge\JSON\PowerJSON.vb" />
     <Compile Include="Classes\SolarEdge\JSON\SitesJSON.vb" />
     <Compile Include="Classes\SolarEdge\SolarEdge.vb" />
-    <Compile Include="Forms\FrmMain.vb">
+    <Compile Include="Forms\FrmSolarEdgeMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmMain.Designer.vb">
-      <DependentUpon>FrmMain.vb</DependentUpon>
+    <Compile Include="Forms\FrmSolarEdgeMain.Designer.vb">
+      <DependentUpon>FrmSolarEdgeMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FrmSettings.Designer.vb">
@@ -141,8 +141,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\FrmMain.resx">
-      <DependentUpon>FrmMain.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSolarEdgeMain.resx">
+      <DependentUpon>FrmSolarEdgeMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSettings.resx">
       <DependentUpon>FrmSettings.vb</DependentUpon>
